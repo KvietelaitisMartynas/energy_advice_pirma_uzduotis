@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 
 class WeatherAPI:
-    def __init__(self, location_code, api_key="https//api.meteo.lt/v1/"):
+    def __init__(self, location_code, api_key="https://api.meteo.lt/v1/"):
         self.location_code = location_code
         self.api_key = api_key.rstrip("/")
 
